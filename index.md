@@ -1,4 +1,5 @@
    
+    <html>
     <!-- Background image -->
     <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"></script>
     
@@ -24,3 +25,4 @@
 	<div id = "mercury-orbit">
             <img id = "mercury" src="http://star.arm.ac.uk/eu-unawe/docs/Print%20Package/05%20Planet%20Images/images/Mod_4_Image_2_mercury_NASA.png">
         </div>
+</html>
