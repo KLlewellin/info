@@ -1,0 +1,208 @@
+---
+---
+
+@import "{{ site.theme }}";
+    <head>
+        <style>
+
+/* CSS */		
+
+
+html, body {
+    /* The universe takes up all available space */
+    width: 100%;
+    height: 100%;
+    
+    /* The universe is black */
+    background-color: black;
+}
+
+#sun {
+    position: absolute;
+    /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+    top: 50%;
+    left: 50%;
+    
+    /* Play with these numbers to see what it does */
+    height: 200px;
+    width: 200px;
+    margin-top: -100px; 
+    margin-left: -100px;
+    
+    /* styling the sun */
+    border-color: #492600;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 128px #985711;
+}
+
+#earth {
+    /* Style your earth */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;    
+}
+
+#mars{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: -25px; 
+}
+
+#venus{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: -25px; 
+}
+
+#mercury{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: -25px; 
+}
+
+#earth-orbit {
+    /* For Section #2 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    /*This change applies your custom animation to your earth's orbit.*/
+    /*It will rotate your orbit 360 degrees continuously. */
+    -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+
+}
+
+#mars-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+/*margins = half height/width */
+
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -350px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 50%;
+
+/*Increasing the secs slows the orbit, reducing them speeds it up */
+    
+    -webkit-animation: spin-right 13s linear infinite;
+     -moz-animation: spin-right 13s linear infinite;
+      -ms-animation: spin-right 13s linear infinite;
+       -o-animation: spin-right 13s linear infinite;
+          animation: spin-right 13s linear infinite;
+    
+}
+
+#venus-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+/*margins = half height/width */
+
+    width: 375px;
+    height: 375px;
+    margin-top: -187.5px;
+    margin-left: -187.5px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: orange;
+    border-radius: 50%;
+
+/*Increasing the secs slows the orbit, reducing them speeds it up */
+    
+    -webkit-animation: spin-right 8s linear infinite;
+     -moz-animation: spin-right 8s linear infinite;
+      -ms-animation: spin-right 8s linear infinite;
+       -o-animation: spin-right 8s linear infinite;
+          animation: spin-right 8s linear infinite;
+    
+}
+
+#mercury-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+/*margins = half height/width */
+
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: grey;
+    border-radius: 50%;
+
+/*Increasing the secs slows the orbit, reducing them speeds it up */
+    
+    -webkit-animation: spin-right 7s linear infinite;
+     -moz-animation: spin-right 7s linear infinite;
+      -ms-animation: spin-right 7s linear infinite;
+       -o-animation: spin-right 7s linear infinite;
+          animation: spin-right 7s linear infinite;
+    
+}
+
+/*Now that the plantes are in orbit. Lets make the orbit spin.*/
+/*the following specifies a custom css animation!*/
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+	</style>
+    </head>
