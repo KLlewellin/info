@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+<html>
     <head>
         <style>
 
@@ -204,6 +201,6 @@ html, body {
             transform: rotate(360deg);
   }
 }
-{
 	</style>
     </head>
+</html>
