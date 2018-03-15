@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+   
+    <!-- Background image -->
+    <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"></script>
+    
+        <!-- Right below is an image of the sun -->
+        <img id="sun" src="http://www.heywhatsthat.com/images/planets/1000/sun.png">
+        
+        <!-- Insert the 'earth' on the next line -->
+        <!-- Make the earth a child of its own orbit -->
+        <div id="earth-orbit">
+            <img id="earth" src="http://2.bp.blogspot.com/_ZnSBvB1XKlM/SMQz2GlvscI/AAAAAAAAAIo/zghbJ6z8eWg/s320/cat_icon_internet_256.png">
+        </div>
 
-You can use the [editor on GitHub](https://github.com/KLlewellin/info/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KLlewellin/info/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!-- Other stuff: Change the sun and earth images, Add all the planets! Animate the sun's glow -->
+        
+        <div id = "mars-orbit">
+            <img id = "mars" src="http://www.heywhatsthat.com/images/planets/1000/mars.png">
+        </div>
+        
+        <div id = "venus-orbit">
+            <img id = "venus" src="http://endeavour.pegasusfleet.net/images/ClassN22.png">
+        </div>
+        
+	<div id = "mercury-orbit">
+            <img id = "mercury" src="http://star.arm.ac.uk/eu-unawe/docs/Print%20Package/05%20Planet%20Images/images/Mod_4_Image_2_mercury_NASA.png">
+        </div>
