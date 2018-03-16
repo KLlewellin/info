@@ -1,7 +1,7 @@
    <!DOCTYPE html>
    <html>
 	<head>
-		<link rel="stylesheet" href="https://rawgit.com/KLlewellin/info/master/assets/css/style.scss" />
+		<link type="text/css" rel="stylesheet" href="https://rawgit.com/KLlewellin/info/master/assets/css/style.scss" >
 	</head>
    <body>
 	   
