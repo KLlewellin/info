@@ -5,11 +5,10 @@
    <body>
 	   
 	   
-   <!--Background image-->
+ <!--Background image-->
+ <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"> </script>
    
-   <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"></script>
- 
- 
+   
  <!--Right below is an image of the sun-->
  <img id="sun" src="http://www.heywhatsthat.com/images/planets/1000/sun.png">
 
