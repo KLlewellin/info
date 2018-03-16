@@ -1,8 +1,8 @@
    <!DOCTYPE html>
    <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="../css/style.css" >
-		@import url("info/assets/css/style.scss")
+		<link type="text/css" rel="stylesheet" href="https://gist.github.com/tuzz/3331384#file-github-css" >
+		
 	</head>
    <body>
 	   
