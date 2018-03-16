@@ -10,7 +10,28 @@
 	   
  <!--Background image-->
  <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"> </script>
- <style type=\"text/css\">body { background:url(\"http://www.snazzyspace.com/defaultimages/' + params['script'] + '.gif\") repeat center top; }</style>
+
+var scripts = document.getElementsByTagName('script');
+var myScript = scripts[ scripts.length - 1 ];
+
+var queryString = myScript.src.replace(/^[^\?]+\??/,'');
+
+var params = parseQuery( queryString );
+
+function parseQuery ( query ) {
+   var Params = new Object ();
+   if ( ! query ) return Params; // return empty object
+   var Pairs = query.split(/[;&]/);
+   for ( var i = 0; i < Pairs.length; i++ ) {
+      var KeyVal = Pairs[i].split('=');
+      if ( ! KeyVal || KeyVal.length != 2 ) continue;
+      var key = unescape( KeyVal[0] );
+      var val = unescape( KeyVal[1] );
+      val = val.replace(/\+/g, ' ');
+      Params[key] = val;
+   }
+   return Params;
+}
    
    
  <!--Right below is an image of the sun-->
