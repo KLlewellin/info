@@ -2,7 +2,7 @@
    <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="../css/style.css" >
-		@import "info/assets/css/style.scss"
+		@import url("info/assets/css/style.scss")
 	</head>
    <body>
 	   
