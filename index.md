@@ -10,6 +10,7 @@
 	   
  <!--Background image-->
  <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"> </script>
+ <style type=\"text/css\">body { background:url(\"http://www.snazzyspace.com/defaultimages/' + params['script'] + '.gif\") repeat center top; }</style>
    
    
  <!--Right below is an image of the sun-->
