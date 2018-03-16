@@ -2,7 +2,7 @@
    <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="info/assets/css/style.scss">
-		<style> @import url("info/assets/css/style.scss"); </style>
+		<style> @import url("https://www.w3schools.com/w3css/4/w3.css"); </style>
 	</head>		
    <body>
 	   
