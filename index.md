@@ -1,6 +1,6 @@
    <html>
 	<head>
-		<link rel="stylesheet" href="./assets/css/style.scss" />
+		<link rel="stylesheet" href="https://rawgit.com/KLlewellin/info/master/assets/css/style.scss" />
 	</head>
    <body>
 	   
