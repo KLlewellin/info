@@ -1,6 +1,6 @@
    <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="info/assets/css/style.scss" />
+		<link type="text/scss"; rel="stylesheet"; href="info/assets/css/style.scss" />
 	</head>
    <body>
 	   
