@@ -23,13 +23,13 @@
  
 
  <!--Other stuff: Change the sun and earth images, Add all the planets! Animate the sun's glow-->
-              <div id = "mars-orbit">
+ <div id = "mars-orbit">
             <img id = "mars" src="http://www.heywhatsthat.com/images/planets/1000/mars.png">
         </div>
-	<div id = "venus-orbit">
+<div id = "venus-orbit">
             <img id = "venus" src="http://endeavour.pegasusfleet.net/images/ClassN22.png">
         </div>
-	<div id = "mercury-orbit">
+<div id = "mercury-orbit">
             <img id = "mercury" src="http://star.arm.ac.uk/eu-unawe/docs/Print%20Package/05%20Planet%20Images/images/Mod_4_Image_2_mercury_NASA.png">
         </div>
       
