@@ -1,7 +1,8 @@
    <!DOCTYPE html>
    <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="https://gist.github.com/tuzz/3331384#file-github-css" >
+		<link type="text/css" rel="stylesheet" href="https://gist.githubusercontent.com/tuzz/3331384/raw/fc0160dd7ea0b4a861533c4d6c232f56291796a3/github.css" >
+		
 		
 	</head>
    <body>
