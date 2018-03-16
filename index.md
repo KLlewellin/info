@@ -4,6 +4,8 @@
 	</head>
    <body>
 	   
+<h1> This is a test header </h1>
+	   
 	   
  <!--Background image-->
  <script type="text/javascript" src="http://www.snazzyspace.com/background/background.js?script=000000_starry-skies"> </script>
