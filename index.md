@@ -1,4 +1,7 @@
    <html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="info/assets/css/" />
+	</head>
    <body>
     
     <!-- Background image -->
