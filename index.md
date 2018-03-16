@@ -2,9 +2,7 @@
    <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="https://gist.githubusercontent.com/tuzz/3331384/raw/fc0160dd7ea0b4a861533c4d6c232f56291796a3/github.css" >
-		
-		
-	</head>
+	</head>		
    <body>
 	   
 <h1> This is a test header </h1>
